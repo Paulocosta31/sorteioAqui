@@ -73,8 +73,9 @@ button {
 
 
 @media screen and (max-width: 900px) {
-
+   
   main{
+    position: absolute;
     align-items: center;
     margin-left: 15px;
   }
