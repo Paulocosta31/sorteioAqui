@@ -6,6 +6,6 @@ const min = Math.floor(document.querySelector(".min-input").value )
 
 const result = Math.floor(Math.random() * (max - min) + min);
 
-console.log(result)
-alert(result)
+document.querySelector(".resultado").value = result
 }
+
